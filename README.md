@@ -4,13 +4,14 @@
 
 git clone git@github.com:AnnSyh/ts-sort.git
 
-- устанавливаем зависимости
-
-npm i
-
  - переходим в папку src/
 
-cd src/ 
+cd ts-sort/src
+
+- устанавливаем зависимости
+
+npm install nodemon concurrently
+
  - и запускаем в ней проект 
 
 npm start
