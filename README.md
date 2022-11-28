@@ -1,19 +1,8 @@
-## Getting Started
 
-- стягиваем проект
+## Установка и запуск
+- git clone git@github.com:AnnSyh/ts-sort.git - стягиваем проект
+- cd ts-sort/src  - переходим в папку src/
+- npm install nodemon concurrently - установка зависимостей
+- npm run start - запуск проекта
 
-git clone git@github.com:AnnSyh/ts-sort.git
-
- - переходим в папку src/
-
-cd ts-sort/src
-
-- устанавливаем зависимости
-
-npm install nodemon concurrently
-
- - и запускаем в ней проект 
-
-npm start
-
-сортируемые массивы: чисел, букв и связанный список задаются в index.ts
+- сортируемые массивы: чисел, букв и связанный список задаются в index.ts
